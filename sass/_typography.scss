@@ -1,0 +1,16 @@
+// Basic
+body {
+	font: $default-font-size $default-font;
+  line-height: $default-line-height;
+  -webkit-font-smoothing:antialiased;
+	color: $default-color;
+}
+
+a {
+	text-decoration: none;
+  &:hover {
+    color: $link-hover
+  }
+}
+
+strong, b { font-weight: bold }

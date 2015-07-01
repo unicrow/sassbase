@@ -1,0 +1,16 @@
+@import url(../css/reset.css);
+body {
+  font: 16px "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  color: #333; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    color: #0c0cff; }
+
+strong, b {
+  font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */
