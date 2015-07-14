@@ -7,3 +7,15 @@
 	visibility: visible;
 	opacity: 1;
 }
+
+@each $direction in top, right, bottom, left {
+  .no-padding-#{$direction} {
+    padding-#{$direction}:0px;
+  }
+}
+
+@each $direction in top, right, bottom, left {
+  .no-margin-#{$direction} {
+    margin-#{$direction}:0px;
+  }
+}
