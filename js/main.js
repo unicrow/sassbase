@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $('input, textarea').placeholder({ customClass: 'placeholder' });
+  if(jQuery().placeholder) {$('input, textarea').placeholder({ customClass: 'placeholder' });}
 });
