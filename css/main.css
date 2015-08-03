@@ -1,16 +1,2 @@
-@import url(../css/reset.css);
-body {
-  font: 16px "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  line-height: 20px;
-  -webkit-font-smoothing: antialiased;
-  color: #333; }
-
-a {
-  text-decoration: none; }
-  a:hover {
-    color: #0c0cff; }
-
-strong, b {
-  font-weight: bold; }
-
+@import url(../css/reset.css);html,body{height:100%}.page-wrap{min-height:100%;margin-bottom:-140px}.page-wrap:after{content:'';display:block}footer,.page-wrap:after{height:140px}body{font:16px "Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;line-height:20px;-webkit-font-smoothing:antialiased;color:#333}a{text-decoration:none}a:hover{color:#2626ff}strong,b{font-weight:bold}.placeholder{color:#bab7b7}.no-padding-top{padding-top:0px !important}.no-padding-right{padding-right:0px !important}.no-padding-bottom{padding-bottom:0px !important}.no-padding-left{padding-left:0px !important}.no-margin-top{margin-top:0px !important}.no-margin-right{margin-right:0px !important}.no-margin-bottom{margin-bottom:0px !important}.no-margin-left{margin-left:0px !important}
 /*# sourceMappingURL=main.css.map */
