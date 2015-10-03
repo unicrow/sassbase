@@ -1,9 +1,9 @@
 // Basic
 body {
-	font: $default-font-size $default-font;
-  line-height: $default-line-height;
+	font: $dfs $default-font;
+  line-height: $df-line-height;
   -webkit-font-smoothing:antialiased;
-	color: $default-color;
+	color: $dc;
 }
 
 a {
