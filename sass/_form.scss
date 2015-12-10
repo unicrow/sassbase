@@ -14,3 +14,15 @@ button {
   outline: none;
   -webkit-font-smoothing: antialiased;
 }
+
+/***
+
+  # Autocomplete ile dolan field'lere renk verilmek istenirse bu kod parçacığı kullanılabilir.
+
+  input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+
+    // box-shadow: 0 0 0px 1000px #fff inset;
+    // -webkit-text-fill-color: white !important;
+  }
+  
+***/
