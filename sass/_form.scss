@@ -1,4 +1,4 @@
-input[type="text"], input[type="password"], textarea {
+input, textarea {
   font: $dfs $df;
   line-height: auto;
   background-color: #fff;
@@ -11,12 +11,29 @@ input[type="text"], input[type="password"], textarea {
 }
 
 textarea {
-  overflow: auto; // for ie
+  overflow: auto; // must for ie
 }
 
 button {
   outline: none;
   -webkit-font-smoothing: antialiased;
+}
+
+select {
+  /***
+
+  # Custom select kullanılırsa aşağı oku kaldırmak için bu kod kullanılmalı
+
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  @include prefixer(appearance, none, webkit moz ms);
+  &::-ms-expand {
+    display: none;
+  }
+
+  ***/
 }
 
 /***
