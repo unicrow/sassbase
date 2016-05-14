@@ -1,4 +1,3 @@
-*, *:after, *:before { box-sizing: border-box; }
 .hide { display: none !important; }
-.show { display: block !important; }
-.show-inline { display: inline-block !important; }
+.block { display: block !important; }
+.inline-block { display: inline-block !important; }

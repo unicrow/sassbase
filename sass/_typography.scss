@@ -1,18 +1,20 @@
+// @include font-face("source-sans-pro", "/fonts/source-sans-pro/source-sans-pro-regular", $file-formats: eot woff2 woff);
+
 // Basic
 body {
-	font: $dfs $default-font;
+	font: $df-size $df;
   line-height: $df-line-height;
   -webkit-font-smoothing:antialiased;
-	color: $dc;
+	color: $black;
 }
 
 a {
 	text-decoration: none;
+	@include transition(all 150ms);
   &:hover {
-    color: $link-hover
+    color: $link-hover;
+		text-decoration: none;
   }
 }
 
 strong, b { font-weight: bold }
-
-.placeholder { color:$input-placeholder }

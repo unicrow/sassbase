@@ -24,3 +24,24 @@
   &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
+
+@mixin va-t-y {
+	@include position(absolute, 50% null null null);
+	@include transform(translateY(-50%));
+}
+
+@mixin va-t-x {
+	@include position(absolute, null null null 50%);
+	@include transform(translateX(-50%));
+}
+
+@mixin va-t {
+	@include position(absolute, 50% null null 50%);
+	@include transform(translateY(-50%) translateX(-50%));
+}
+
+@mixin pseudo-element {
+  content:'';
+  position: absolute;
+  z-index:1;
+}

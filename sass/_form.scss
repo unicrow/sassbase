@@ -1,12 +1,12 @@
 input, textarea {
-  font: $dfs $df;
+  font: $df-size $df;
   line-height: auto;
   background-color: #fff;
   border: 1px solid #ccc;
   outline: none;
   -webkit-font-smoothing: antialiased;
   &:hover, &:focus {
-    border:1px solid $input-hover-focus;
+    border:1px solid shade(#ccc,20%);
   }
 }
 
@@ -14,9 +14,13 @@ textarea {
   overflow: auto; // must for ie
 }
 
-button {
+button, .btn {
   outline: none;
   -webkit-font-smoothing: antialiased;
+  @include transition(background-color 250ms, color 250ms);
+  &:hover {
+    color:#fff;
+  }
 }
 
 select {
