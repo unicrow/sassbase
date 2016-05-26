@@ -40,8 +40,8 @@
 	@include transform(translateY(-50%) translateX(-50%));
 }
 
-@mixin pseudo-element {
+@mixin pseudo-element($value:absolute) {
   content:'';
-  position: absolute;
+  position: $value;
   z-index:1;
 }
