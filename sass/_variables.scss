@@ -19,3 +19,9 @@ $link-hover: tint($link, 15%);
 
 // Sizes
 $footer-h:140px;
+
+// Breakpoints
+$ipad-landscape: new-breakpoint(min-device-width 768px max-device-width 1024px orientation landscape);
+$iphone-landscape: new-breakpoint(min-device-width 375px max-device-width 667px orientation landscape);
+$ipad-portrait: new-breakpoint(min-device-width 768px max-device-width 1024px orientation portrait);
+$iphone-portrait: new-breakpoint(min-device-width 375px max-device-width 667px orientation portrait);
