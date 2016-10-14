@@ -28,3 +28,4 @@ env
 
 .sass-cache
 node_modules
+.vscode
