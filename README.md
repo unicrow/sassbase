@@ -27,18 +27,21 @@ Brew ile kurulum için önce **1.2** adımını gerçekleştirin.
 * `npm install -g bower`
 
 
-## 2. Reponuzu Oluşturun
+## 2. Çalışma Dizin Ayaları
 
 0. Repoyu proje adı ile indirin
-0. 0. `git clone git@github.com:unicrow/sassbase.git proje_adi` (3.1)
-0. 0. `git clone --branch=bower git@github.com:unicrow/sassbase.git proje_adi` (3.2)
-0. 0. `git clone --branch=include git@github.com:unicrow/sassbase.git proje_adi` (Önerilir) (3.3)
+  0. `git clone git@github.com:unicrow/sassbase.git proje_adi` (3.1)
+  0. `git clone --branch=bower git@github.com:unicrow/sassbase.git proje_adi` (3.2)
+  0. `git clone --branch=include git@github.com:unicrow/sassbase.git proje_adi` (Önerilir) (3.3)
 0. `cd proje_adi` ile proje dizinine girin.
 0. `git remote set-url origin git@`**yeni.projenizin.url** kısmını düzenleyin
 0. `npm install` ile gerekli node paketlerin kurulumunu başlatın. (Node kurulu değilse 1.2 Kurulumuna Bakın)
+0. `grunt` sistemi çalıştırın.
+0. `http://localhost:3000` üzerinde kontrol edebilirsiniz.
 
 
 ## 3. Proje Türleri
+
 - 3.1 **master** Basit bir proje başlangıcı için bu branch'ı kullanın.
   - `git clone git@github.com:unicrow/sassbase.git proje_adi`
 - 3.2 **bower** Projede *Bower* kullanılacaksa bu branch'ı kullanın.
