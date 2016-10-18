@@ -10,6 +10,8 @@
 
 ## 1. Sistem Kurulumları (Mac için)
 
+Aşağıdaki paketler siz de varsa kurmanıza gerek yok. Deneme için **Terminal**'e örneğin **"node"** yazabilirsiniz.
+
 ### 1.1 Brew Kurulumu
 **Homebrew Hakkında :** http://brew.sh/index_tr.html
 * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
