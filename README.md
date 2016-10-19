@@ -8,13 +8,16 @@
 * Grunt — http://gruntjs.com
 
 
-## 1. Sistem Kurulumları (Mac için)
+## 1. Sistem Kurulumları (Mac ve Linux için)
 
 Aşağıdaki paketler siz de varsa kurmanıza gerek yok. Deneme için **Terminal**'e örneğin **"node"** yazabilirsiniz.
 
 ### 1.1 Brew Kurulumu
-**Homebrew Hakkında :** http://brew.sh/index_tr.html
-* `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Mac
+  * **Homebrew Hakkında :** http://brew.sh/index_tr.html
+    * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Linux
+  * **Linuxbrew Hakkında :** http://linuxbrew.sh/
 
 ### 1.2 Node Kurulumu
 Brew ile kurulum için önce **1.1** adımını gerçekleştirin.
@@ -34,7 +37,7 @@ Brew ile kurulum için önce **1.2** adımını gerçekleştirin.
 0. Repoyu proje adı ile indirin
   0. `git clone git@github.com:unicrow/sassbase.git proje_adi` (3.1)
   0. `git clone --branch=bower git@github.com:unicrow/sassbase.git proje_adi` (3.2)
-  0. `git clone --branch=include git@github.com:unicrow/sassbase.git proje_adi` (Önerilir) (3.3)
+  0. (**Önerilir**) `git clone --branch=include git@github.com:unicrow/sassbase.git proje_adi` (3.3)
 0. `cd proje_adi` ile proje dizinine girin.
 0. `git remote set-url origin git@`**yeni.projenizin.url** kısmını düzenleyin
 0. `npm install` ile gerekli node paketlerin kurulumunu başlatın. (Node kurulu değilse 1.2 Kurulumuna Bakın)
@@ -48,7 +51,7 @@ Brew ile kurulum için önce **1.2** adımını gerçekleştirin.
   - `git clone git@github.com:unicrow/sassbase.git proje_adi`
 - 3.2 **bower** Projede *Bower* kullanılacaksa bu branch'ı kullanın.
   - `git clone --branch=bower git@github.com:unicrow/sassbase.git proje_adi`
-- 3.3 **include** Projede *Bower* ve *Include* yapısı kullanılacaksa bu branch'ı kullanın. (Önerilir)
+- 3.3 (**Önerilir**) **include** Projede *Bower* ve *Include* yapısı kullanılacaksa bu branch'ı kullanın.
   - `git clone --branch=include git@github.com:unicrow/sassbase.git proje_adi`
 
 
