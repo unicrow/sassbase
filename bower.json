@@ -1,0 +1,22 @@
+{
+  "name": "sass-project-base",
+  "description": "project base of unicrow",
+  "main": "",
+  "authors": [
+    "Unicrow"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "css-browser-selector": "*",
+    "placeholders": "^4.0.1"
+  }
+}
