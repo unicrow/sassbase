@@ -4,6 +4,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+*~
 
 # Thumbnails
 ._*
@@ -19,13 +20,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-db.sqlite3
-venv
-env
-
-*.pyc
-*~
-
 .sass-cache
-node_modules
 .vscode
+
+node_modules
+bower_components
+dist
