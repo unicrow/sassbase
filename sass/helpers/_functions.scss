@@ -1,0 +1,3 @@
+@function ls($par, $va: 1000) {
+  @return ($par / $va)+rem;
+}
