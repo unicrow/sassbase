@@ -1,53 +1,5 @@
-input, textarea {
-  font: $df-size $df;
-  line-height: auto;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  outline: none;
-  -webkit-font-smoothing: antialiased;
-  &:hover, &:focus {
-    border:1px solid shade(#ccc,20%);
-  }
+ul {
+  
+  
+
 }
-
-textarea {
-  overflow: auto; // must for ie
-}
-
-button, .btn {
-  outline: none;
-  -webkit-font-smoothing: antialiased;
-  @include transition(background-color 250ms, color 250ms);
-  &:hover {
-    color:#fff;
-  }
-}
-
-select {
-  /***
-
-  # Custom select kullanılırsa aşağı oku kaldırmak için bu kod kullanılmalı
-
-  border: none;
-  box-shadow: none;
-  background-color: transparent;
-  background-image: none;
-  @include prefixer(appearance, none, webkit moz ms);
-  &::-ms-expand {
-    display: none;
-  }
-
-  ***/
-}
-
-/***
-
-  # Autocomplete ile dolan field'lere renk verilmek istenirse bu kod parçacığı kullanılabilir.
-
-  input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
-
-    // box-shadow: 0 0 0px 1000px #fff inset;
-    // -webkit-text-fill-color: white !important;
-  }
-
-***/

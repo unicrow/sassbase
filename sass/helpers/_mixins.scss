@@ -45,3 +45,36 @@
   position: absolute;
   z-index:1;
 }
+
+@mixin text-transform($par) {
+  text-transform: $par;
+}
+
+@mixin mixed-border($size, $type, $color, $dir) {
+  @if $dir == ' ' {
+    border: $size $type $color;
+  } @else if $dir == 'top' {
+    border-top: $size $type $color;
+  } @else if $dir == 'right' {
+    border-right: $size $type $color;
+  } @else if $dir == 'bottom' {
+    border-bottom: $size $type $color;
+  } @else if $dir == 'left' {
+    border-left: $size $type $color;
+  }
+}
+
+@mixin transition($property: all, $duration: 0.3s, $function: ease-in, $delay: 0s) {
+  -webkit-transition: $property $duration $function $delay;
+  -moz-transition: $property $duration $function $delay;
+  -o-transition: $property $duration $function $delay;
+  transition: $property $duration $function $delay;
+}
+
+@mixin input-placeholder {
+  &::-webkit-input-placeholder { @content; }
+  &::-moz-placeholder { @content; }  
+  &:-ms-input-placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &.placeholder { @content; }    
+}
